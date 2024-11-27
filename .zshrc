@@ -38,7 +38,13 @@ zinit ice blockf wait'!0'
 zinit light zsh-users/zsh-autosuggestions
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#11c486"
 
+zinit light zsh-users/zsh-syntax-highlighting
+
 # Set up key bindings
 bindkey '^' autosuggest-accept
 
 alias n="nvim"
+
+if [ -z "$TMUX" ]; then
+	tmux a -t main 2> /dev/null || tmux new -s main
+fi
