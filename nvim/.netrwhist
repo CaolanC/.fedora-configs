@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/cochrac2/projects/CC/.git'
+let g:netrw_dirhist_2='/home/cochrac2/projects/mvc-cc/wwwroot/scss'
+let g:netrw_dirhist_1='/home/cochrac2/projects/mvc-cc/wwwroot/css'

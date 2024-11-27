@@ -8,3 +8,5 @@ exec zsh
 zinit self-update
 
 exit
+
+ln -s ~/.fedora-configs/nvim ~/.config/nvim

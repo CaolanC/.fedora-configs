@@ -1,0 +1,3 @@
+[submodule "mason.nvim"]
+	path = mason.nvim
+	url = git@github.com:williamboman/mason.nvim.git

@@ -1,0 +1,4 @@
+Language:        Cpp
+BasedOnStyle:    Google  # or LLVM, Mozilla, etc.
+IndentWidth:     4       # Set this to your preferred tab size
+UseTab:          Never   # Use spaces instead of tabs
