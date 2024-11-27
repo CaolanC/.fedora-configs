@@ -41,3 +41,4 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#11c486"
 # Set up key bindings
 bindkey '^' autosuggest-accept
 
+alias n="nvim"
