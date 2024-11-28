@@ -118,6 +118,7 @@ basesystem.noarch
 bash.x86_64
 bash-color-prompt.noarch
 bash-completion.noarch
+bat.x86_64
 bc.x86_64
 bind-libs.x86_64
 bind-utils.x86_64
@@ -449,6 +450,7 @@ fwupd-efi.x86_64
 fwupd-plugin-flashrom.x86_64
 fwupd-plugin-modem-manager.x86_64
 fwupd-plugin-uefi-capsule-data.x86_64
+fzf.x86_64
 game-music-emu.x86_64
 gamemode.i686
 gamemode.x86_64
@@ -2568,6 +2570,7 @@ zlib-ng-compat.i686
 zlib-ng-compat.x86_64
 zlib-ng-compat-devel.x86_64
 zoom.x86_64
+zoxide.x86_64
 zram-generator.x86_64
 zram-generator-defaults.noarch
 zsh.x86_64

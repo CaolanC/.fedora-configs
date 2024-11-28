@@ -43,8 +43,17 @@ zinit light zsh-users/zsh-syntax-highlighting
 # Set up key bindings
 bindkey '^' autosuggest-accept
 
-alias n="nvim"
-
 if [ -z "$TMUX" ]; then
 	tmux a -t main 2> /dev/null || tmux new -s main
 fi
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+#zoxide setup
+eval "$(zoxide init zsh)"
+
+alias n="nvim"
+alias fbat='fzf -m --preview="bat --color=always {}"'
+alias fn='nvim $(fbat)'
+alias cd='z'
