@@ -7,3 +7,4 @@ neovim
 git
 flatpak
 oathtool
+thunar
