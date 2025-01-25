@@ -6,3 +6,4 @@ vim
 neovim
 git
 flatpak
+oathtool
