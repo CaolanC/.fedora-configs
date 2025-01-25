@@ -42,9 +42,11 @@ zinit light zsh-users/zsh-syntax-highlighting
 
 # Set up key bindings
 bindkey '^' autosuggest-accept
+bindkey '^U' kill-whole-line
+bindkey '^A' beginning-of-line
 
 if [ -z "$TMUX" ]; then
-	tmux a -t main 2> /dev/null || tmux new -s main
+	tmux a -t main || tmux new -s main
 fi
 
 # Set up fzf key bindings and fuzzy completion
@@ -57,3 +59,26 @@ alias n="nvim"
 alias fbat='fzf -m --preview="bat --color=always {}"'
 alias fn='nvim $(fbat)'
 alias cd='z'
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+### End of Zinit's installer chunk
+
+export PATH="$PATH:/home/cochrac2/bin/"
+
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+### End of Zinit's installer chunk
