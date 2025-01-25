@@ -8,3 +8,5 @@ git
 flatpak
 oathtool
 thunar
+tlp
+tlp-rdw
