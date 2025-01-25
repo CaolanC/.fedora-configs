@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+oathtool --totp -b 6N3MN5YZMF67WX2X
+oathtool --totp -b QCJ6HFLKTBP5W7B3
+echo "DCU" 
+oathtool --totp -b SSHYLVGMDKBYPV26
+oathtool --totp -b JNXMMJHZSWMQZSKQ
+

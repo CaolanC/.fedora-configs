@@ -10,3 +10,4 @@ oathtool
 thunar
 tlp
 tlp-rdw
+xclip

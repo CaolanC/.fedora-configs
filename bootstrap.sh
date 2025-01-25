@@ -1,5 +1,6 @@
 ln -sf ~/.fedora-configs/nvim ~/.config/nvim
 ln -sf ~/.fedora-configs/.zshrc ~/.zshrc
+ln -sf ~/.fedora-configs/bin ~/bin
 
 sudo dnf install -y $(cat ~/.fedora-configs/dnf-packages.txt)
 
