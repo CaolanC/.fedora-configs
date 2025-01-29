@@ -11,3 +11,4 @@ thunar
 tlp
 tlp-rdw
 xclip
+docker
